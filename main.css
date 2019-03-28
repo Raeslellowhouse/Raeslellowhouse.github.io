@@ -1,0 +1,123 @@
+
+  .p1 {
+    color:#493304;
+    font-size:18px;
+}
+
+	.p2 {
+		color:#493304;
+		font-size:18px;
+}
+	h2 {
+		color:#103804;
+	}
+	.listitem {
+		color:maroon;
+		font-size:20px;
+}
+
+	#background {
+		background-color:#ceb884;
+}
+
+	#button {
+		height:100px;
+		width:150px;
+		color:white;
+		background-color:orange;
+		border-radius:15px;
+}
+	header {
+		height:300;
+		width:99%;
+		border:5px solid black;
+		background-color:#ffa538;
+		margin-bottom:5em;
+}
+	footer {
+		height:100;
+		width:99%;
+		border:2px solid black;
+		color:black;
+		font-size:30px;
+		background-color:#ba9544;
+}
+	.wrap-trivia {
+		height:300px;
+		width:300px;
+		border:5px double yellow;
+		margin-left:35px;
+		padding-left:50px;
+}
+	.wrap-list {
+		height:200px;
+		width:450px;
+		border:5px dashed #471111;
+		margin-left:35px;
+}
+	.wrap-text {
+		color: #2b4711;
+		font-size:40px;
+		border:2px dotted #404711;
+}
+	#one {
+		height: 150px;
+		width: 150px;
+		background-color:orange;
+		display:inline-block;
+		position:absolute;
+		left:50%;
+}
+	#two {
+		height:200px;
+		width: 200px;
+		background-color:yellow;
+		display:inline-block;
+		position:fixed;
+		left:25%;
+		z-index:1;
+}
+	#three {
+		height:300px;
+		width:300px;
+		background-color:red;
+		display:inline-block;
+		position:relative; 
+		top:750px;
+		z-index:2;
+}
+	#abc {
+		height:2048px;
+}
+
+	#navmenu {
+		width:400px;
+		height:30px;
+		margin:auto;
+		border:5px black;
+		background-color:#f47142;
+}
+	.navitem {
+		list-style-type:none;
+		display: inline;
+		padding-right:1.5em;
+}
+	a:link {
+		color:black;
+}
+	a:visited {
+		color:purpleS;
+}
+	a:hover {
+		color:white;
+}
+	a:active {
+		color:yellow;
+}
+	
+	#rightside{
+		width: 50%;
+}
+	#clearfloat{
+		clear:both;
+}

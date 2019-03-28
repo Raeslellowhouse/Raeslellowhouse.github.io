@@ -1,0 +1,102 @@
+<html>
+  <head>
+   <link type="text/css" rel="stylesheet" href="main.css"/>
+	 <title> Who's this awesomeness? </title>
+   <script>
+      function banner(){
+        var text = confirm("Haha you're ready to see my favortie website?");
+        return text;
+      }
+
+      function answer(){
+        var radio = document.getElementsByName("trivia");
+        var selection = false;
+        var message = "";
+
+        for( var i = 0; i < radio.length; i++) {
+          if(radio[i].value == "kcr" && radio[i].checked == true) {
+            selection = true;
+        } 
+      } 
+
+      if(selection == true) {
+        message = message + "<b><p style='color:green'>Way to go!</p></b>";
+      } else {
+        message = message + "<b><p style='color:red'>Try again my friend.</p></b>";
+      }
+        document.getElementById("response").innerHTML = message;
+
+}
+    </script>
+   <style>
+   </style>
+  </head>
+  <body id="background">
+
+  <header> 
+    <a href='https://photos.google.com/share/AF1QipNNDuYsS4tQ54jQW2MtRt9qtUq8OKZzHCN5eZMu5O4exPZk-5nBqLrZ4UMAgpmdxw?key=Zmw2R3p4eVNOdlRIVWFhOTVGbmUwSHlGTVdEbm5B&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/c6jp3wqpnV7Tdrh9I2ju-ifjUlOdXBU5okIspSadgLdQYvJdxtK0rGLurQToGLxJZPppv1upseqPhlWEyMlvykMBhNkr6SUKNr3WHXNwBElcwQe6cxgybJsecGJOKru4Ii1zCFOYXFw=w2400' width="1320" height="300" /></a>
+  </header>
+
+    <nav> 
+    <ul id="navmenu">
+        <li class="navitem"> <a href="Index.html">Home</a></li>
+        <li class="navitem"> <a href="Image Gallery.html">Image Gallery</a></li>
+        <li class="navitem"> <a href="Diary of Events.html">Diary of events</a></li>
+      </ul>
+    </nav>
+
+  <h2> <p> <span class="wrap-text"> Get to Know Me! </span> </p> </h2>
+    <p class="p1"> Hello! My name is <b>Abbs Hat</b> and here's a little bit about me. I am 16 years old, living the dream with all my wonderful family and friends. I am pretty crazy and outgoing. <b>FUN FACT #1:</b> I LOVE toast, raspberry jam, and cheddar cheese! :) <b>FUN FACT #2:</b> My favorite season is fall! <b>FUN FACT #3:</b> I am definitely an outside kind of girl! Yay for snow!! <b> FUN FACT #4:</b> I am a Junior in Highschool who does school at home and online. Its pretty darn great:) </p>
+        
+    <p class="p2">Ok so hobbies: <u>My music side:</u> I am advanced in piano, I am learning the guitar, and I am taking voice lessons. My <u>sporty side:</u> I ski every week, I swim laps almost every morning, and archery is my favorite ever! <u>Family side:</u> I am the oldest of 7 kids. <u>Dating side:</u> I have gone on so many dates I can't even count anymore haha :) <u>Creative side:</u> I love photography, graphic design, web design, sketching my thoughts, and crocheting.
+    </p>
+    
+    <p class="p2"><a href= "https://www.netflix.com/" onclick="return banner()">My Favorite Website</a></p>
+
+      <center><a href='https://photos.google.com/share/AF1QipMHwvoMzY539pNF9U8SR1jL1YJQar5IU-GE3yuYl4HQGnJOsk9chaSEJd1-f_bMyw?key=RTJoNkJ2Y3J1YVh1MkJvbEVSX3BuaUQzZndyaTdR&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/1JJIY37QUhrvtYXXi_Qv43hPIvO-9i2B4v_TCRSwW8PTYPg2dypY6mjfu9MuCt4Flb3BTLLIUcFlhYCxKhTR6NRo-UmdCgpihmRZ2VzJ2SjEpcnt-Z6VCiUsXxCnb76Mb7ip-A46XkM=w2400' width="284" height="480" /></a> <a href='https://photos.google.com/share/AF1QipOTCrkpooX2z1cK7I4IpHQO2x61xFo9ijFruBDKNvdFo0ub-exwMUCoLzXIrJCESw?key=cUtzc3NEdDNHT0tPazhMZTdTSlh0R2pyVVRVc3Fn&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/tZEmJF6AEU16PgXYyUJThITsNf50jacsFS3RA_E_m5R8gTXjkdat4Em9WawO94u09HU_nKfVrHib1WVyn8k2IIOHJAqx33fittqQ5dcSf8k2q24c6BOlRyhMSzYm3l3-rNj4OJxG2z4=w2400' width="350" height="480"/></a> <a href='https://photos.google.com/share/AF1QipM2wevScasmuaPYksGBVh8JArh8rmIcNyw3_OroXG-VDrmzi4_GlmbJsLK1C2eKwQ?key=UWs2TkRtTXVJRTF5UEhmUGNkZV82TENkR0tRS3R3&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/BQTQRs4_CGIvof9P5xO2x8kXw7YWwuMFeS8ufXInLVeOmoiobzOcDZukyZOh2hZ6YKpDxMfA9QtKwMu78bjV-FmezrKJ85euMnu-0ynWsTrtMbKhkw96oPkxMQCIugTuPN6U5Oy-trY=w2400' width="350" height="480" /></a></center>
+
+      <hr>
+
+    <form>
+    <div id="response"></div>
+    <div class="wrap-trivia">
+    <h2><font color="maroon">Trivia Time!!</font> </p> </h2>
+    <b>What was my favorite snack?</b></p>
+    <form>
+      <input type="radio" name="trivia" value="no">Ham and cheese<br>
+      <input type="radio" name="trivia" value="no">Crackers, any kind of jam, and cheese<br>
+      <input type="radio" name="trivia" value="yes">Toast, raspberry jam, and cheese!<br>
+    <input type="button" value="kcr" id="button" onclick="answer()">
+    </form>
+    </div>
+
+    <p>
+  <div class="wrap-list">
+    <ul> About my piano life 
+      <li class="listitem">My home has a beautiful grand piano that I practice on every day for an hour or more.</li>
+      <li class="listitem">I have been playing for 8 years now.</li>
+      <li class="listitem">I perform in a lot of recitals, I perform in front of judges and get scored on my performance, and I accompany some chiors and singers.</li>
+    </ul>
+  </div>
+    </P>
+
+    <p>
+    <iframe src="https://drive.google.com/file/d/1ijQobyaBgre8wXyoo9rCoHiWRVTJ2u3kGA/preview" width="640" height="480"></iframe>
+    <p class="p2"> This video is of me skiing on my last day of lessons. I decided to hit a jump that was big in person (but is seemingly small on video). I have only been skiing for 5 weeks so this was an awesome mile-stone to my new found sport. Can't even wait until I get to ski again!</p> 
+    </iframe>  
+    </p>
+  <hr>
+  
+  <audio width="400" height="220" controls autoplay>
+  <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+  Your browser does not support HTML 5 audio.
+  </audio> My family has a small farm of animals, 2 of which are horses: Wink and Ringo. So here is a random horse sound for ya! :) 
+  </div>
+
+<div id="clearfloat">
+
+ 
+  
+    <footer> <center> Now you know some of the total awesomeness of Abbs Hat! Till next time!! </center> </footer>
+  </body>
+</html>
